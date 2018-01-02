@@ -1,0 +1,193 @@
+:root {
+	--bgPink:#F5D2CC;
+	--blue:#25275E;
+	--pink:#DA9692;
+	--white:#F7F7F7;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+*::before, *::after {
+	position:absolute;
+	content:'';
+	color:var(--blue);
+}
+
+html, body {
+	background-color: var(--bgPink);
+	background-color: #F5D2CC;
+	width:100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: "微軟正黑體";
+	color: var(--blue);
+}
+
+
+.container {
+	position:relative;
+	width:80%;
+	max-width: 900px;
+	height:auto;
+	margin: 50px auto;
+	padding: 0;
+	background-color: var(--white);
+	background-color: #F7F7F7;
+	overflow:hidden;
+}
+
+.section {
+	padding: 60px;
+	width:50%;
+	height:auto;
+	float: left;
+}
+
+.block_line {
+	position:absolute;
+	left:50%;
+	width:2px;
+	height:80%;
+	top: 10%;
+	background: var(--blue);
+}
+
+.section_one {
+	
+}
+
+.logo {
+	position:relative;
+	width:100px;
+	height:100px;
+	border:2px solid var(--blue);
+	font-size: 28px;
+	line-height: 1.5em;
+	margin-bottom: 40px;
+}
+
+.logo::before {
+	content:'CHEN \A E J';
+	white-space: pre;
+	margin-left:6px;
+	margin-top: 6px;
+}
+
+.logo::after {
+	width:0;
+	height:0;
+	border:8px solid var(--blue);
+	border-color:transparent transparent transparent var(--blue);
+	bottom:-3px;
+	right: -3px;
+	transform:rotate(45deg);
+}
+
+.name {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.career {
+	padding-top: 10px;
+	font-size: 16px;
+	color:var(--pink);
+	letter-spacing:.1em;
+}
+.content {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	position:relative;
+	width:100%;
+	color:var(--blue);
+	height:auto;
+}
+.content > p {
+	text-align: justify;
+	font-size: 13px;
+	letter-spacing:.1em;
+	line-height: 1.5em;
+}
+.title {
+	width:100%;
+	height:2px;
+	background: var(--blue);
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 45px;
+}
+.title::after {
+	background: var(--white);
+	transform-origin: 50%;
+	left:50%;
+	top:-.5em;
+	transform: translate(-50%);
+}
+.title_about_me::after {
+	content:'\00a0\00a0\00a0關\00a0\00a0於\00a0\00a0我\00a0\00a0\00a0';
+}
+.title_experience::after {
+	content:'\00a0\00a0\00a0工\00a0\00a0作\00a0/\00a0實\00a0\00a0習\00a0\00a0經\00a0\00a0驗\00a0\00a0\00a0';
+}
+.title_exhibitions::after {
+	content:'\00a0\00a0\00a0展\00a0\00a0覽\00a0\00a0經\00a0\00a0驗\00a0\00a0\00a0';
+}
+.title_pro_skills::after {
+	content:'\00a0\00a0\00a0專\00a0\00a0業\00a0\00a0技\00a0\00a0能\00a0\00a0\00a0';
+}
+.title_f2e_skills::after {
+	content:'\00a0\00a0\00a0前\00a0\00a0端\00a0\00a0技\00a0\00a0能\00a0\00a0\00a0';
+}
+.title_other_skills::after {
+	content:'\00a0\00a0\00a0其\00a0\00a0它\00a0\00a0技\00a0\00a0能\00a0\00a0\00a0';
+}
+.f2e_skills > .skill, .other_skills > .skill{
+	line-height: 2em;
+}
+.chart {
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	border:7px solid #F2DADA;
+	margin: 0 auto;
+	margin-bottom: 14px;
+}
+.skill {
+	position:relative;
+	font-size: 13px;
+	letter-spacing:.1em;
+	line-height: 1.5em;
+}
+.skill_container {
+	width: 100%;
+	height:auto;
+	overflow:hidden;
+}
+.skill_container > .skill {
+	float: left;
+	width:33.33%;
+	text-align: center;
+	font-size: 12px;
+}
+.id {
+	display: inline;
+}
+.bar {
+	position:relative;
+	float: right;
+	display: inline-block;
+	width:130px;
+	height:8px;
+	border-radius: 5px;
+	border:1px solid #DA9692;
+	transform: translateY(100%);
+	overflow:hidden;
+}
+.bar::after {
+	width:50%;
+	height:100%;
+	background: #DA9692;
+}

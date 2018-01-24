@@ -2,9 +2,10 @@ if (!window.I18N) window.I18N = {};
 window.I18N['en'] = {
 	name: 'CHEN E J',
 	career: 'Front  End  Developer',
-	about_me: `2017 畢業於國立臺北藝術大學新媒體藝術學系<br><br>
-					大學時期作品主要為動力機械裝置、手繪實驗動畫以及影像裝置。利用Arduino和機械結構、影像動畫，製作多媒材結合的作品。<br><br>
-					目前自學於前端網頁工程、設計的技術。`,
+	about_me: `I  graduated from the department of New Media Arts of Taipei National University of the Arts in 2017.<br><br>
+				In school my works were mainly mechanical power devices, hand-painted experimental animation and video devices.<br>
+				Using Arduino and mechanical structure, video animation to produce multi-media combination of works.<br><br>
+				Currently focusing on learning web front-end engineering and design technique, I enjoy designing practical and beautiful interface, and are curious about new technologies and knowledge. I am also eager to make progress and grow continuously.`,
 	portfolio: 'portfolio',
 	experience: `<span class="year" >2014</span>
 					 SABKARMA Multimedia department - Intern<br><br>
@@ -20,6 +21,9 @@ window.I18N['en'] = {
 					「A\P」/Taipei National University of the Arts, Taipei<br>
 					「Forced Producing」/Taipei National University of the Arts, Taipei<br><br>
 					<span class="year">2013</span><br>
-					​「Chronically Poisoned」/Taipei National University of the Arts, Taipei`
+					​「Chronically Poisoned」/Taipei National University of the Arts, Taipei`,
+	f2e:'Front-End Web Development',
+	visual:'Visual Design',
+	branding:'Brand Image Design'
 
 }

@@ -304,16 +304,19 @@ html, body {
 	width:60%;
 }
 .f2e_skills_container :nth-child(5) > .bar::after{
-	width:55%;
+	width:65%;
 }
 .f2e_skills_container :nth-child(6) > .bar::after{
-	width:70%;
+	width:75%;
 }
 .f2e_skills_container :nth-child(7) > .bar::after{
 	width:50%;
 }
 .f2e_skills_container :nth-child(8) > .bar::after{
 	width:35%;
+}
+.f2e_skills_container :nth-child(9) > .bar::after{
+	width:70%;
 }
 .other_skills_container :nth-child(1) > .bar::after {
 	width:90%;
@@ -326,6 +329,12 @@ html, body {
 }
 .other_skills_container :nth-child(4) > .bar::after {
 	width:80%;
+}
+.other_skills_container :nth-child(5) > .bar::after {
+	width:60%;
+}
+.other_skills_container :nth-child(6) > .bar::after {
+	width:45%;
 }
 @media (max-width: 950px) {
 	.section {

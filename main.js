@@ -7,6 +7,9 @@ const About_me = document.querySelector('.about_me');
 const Portfolio = document.querySelector('.portfolio');
 const Experience = document.querySelector('.experience');
 const Exhibitions = document.querySelector('.exhibitions');
+const F2e = document.querySelector('.f2e .id');
+const Visual = document.querySelector('.visual .id');
+const Branding = document.querySelector('.branding .id');
 let btn_status = 'lang_zh';
 
 function lang_toggle(lang) {
@@ -20,6 +23,9 @@ function lang_toggle(lang) {
 		Portfolio.innerHTML=window.I18N.en.portfolio;
 		Experience.innerHTML=window.I18N.en.experience;
 		Exhibitions.innerHTML=window.I18N.en.exhibitions;
+		F2e.innerHTML=window.I18N.en.f2e;
+		Visual.innerHTML=window.I18N.en.visual;
+		Branding.innerHTML=window.I18N.en.branding;
 	} else {
 		btn_status = 'lang_zh';
 		lang_btn.classList.remove('lang_toggle');
@@ -30,7 +36,9 @@ function lang_toggle(lang) {
 		Portfolio.innerHTML=window.I18N.zh.portfolio;
 		Experience.innerHTML=window.I18N.zh.experience;
 		Exhibitions.innerHTML=window.I18N.zh.exhibitions;
-		
+		F2e.innerHTML=window.I18N.zh.f2e;
+		Visual.innerHTML=window.I18N.zh.visual;
+		Branding.innerHTML=window.I18N.zh.branding;
 	}
 	console.log(btn_status);
 }

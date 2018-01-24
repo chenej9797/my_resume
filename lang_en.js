@@ -8,7 +8,7 @@ window.I18N['en'] = {
 				Currently focusing on learning web front-end engineering and design technique, I enjoy designing practical and beautiful interface, and are curious about new technologies and knowledge. I am also eager to make progress and grow continuously.`,
 	portfolio: 'portfolio',
 	experience: `<span class="year" >2014</span>
-					 SABKARMA Multimedia department - Intern<br><br>
+					 SUBKARMA Multimedia department - Intern<br><br>
 					<span class="year">2015</span>
 					 National Taiwan Museum Art Bank - Intern<br><br>
 					<span class="year">2017</span>

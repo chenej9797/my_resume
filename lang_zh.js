@@ -8,7 +8,7 @@ window.I18N['zh'] = {
 					喜歡設計實用並且美的介面，對於新的技術與知識充滿好奇，渴望能夠不斷地進步和成長。`,
 	portfolio: 'portfolio',
 	experience: `<span class="year" >2014</span>
-					 薩巴卡瑪SABKARMA 多媒體部門實習生<br><br>
+					 薩巴卡瑪SUBKARMA 多媒體部門實習生<br><br>
 					<span class="year">2015</span>
 					 國立臺灣美術館 藝術銀行 實習生<br><br>
 					<span class="year">2017</span>
